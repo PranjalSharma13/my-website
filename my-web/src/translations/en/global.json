@@ -1,0 +1,16 @@
+{
+    "header":{
+        "message":"Welcome to Pranjal's website"
+    },
+    "home":{
+        "intro1":"  Hello,I am",
+        "intro2":"A full-stack web developer.",
+        "moreButton":"More About Me"
+        
+    },
+    "about":{
+        "title":"About me",
+        "discription":"Talented Java Developer with 2 years of professional experience excelling in both backend and frontend development to create comprehensive applications. Experienced in seamlessly integrating, rigorously testing, and fortifying enterprise applications, with a strong track record of providing robust support. Proficient in constructing robust backend systems and intuitive user interfaces, leveraging Java, Spring Framework and java script libraries within Health, supply chain logistics and e-commerce domains Additionally, skilled in cross-platform mobile apps development using React Native. Hands-on experience with Kafka, ActiveMQ, Docker and Google Cloud Platform(GCP)"
+        
+    }
+}

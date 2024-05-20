@@ -1,0 +1,93 @@
+.about-section {
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    position: fixed; /* Position the section fixed to cover the entire viewport */
+    top: 46px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 80px);
+    z-index: 999; /* Ensure the section appears on top of other content */
+    opacity: 0; /* Initially hide the section */
+    animation: fadeInAndSlideFromBottom 0.5s ease forwards; /* Define the animation */
+    overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
+  }
+  
+  /* Slanted lines */
+  .about-section::before,
+  .about-section::after {
+    content: "";
+    position: absolute;
+    width: 150%; /* Adjust the width of the lines */
+    height: 20px; /* Adjust the height of the lines */
+    background-color: #d12e7f; /* Pink color */
+    transform: rotate(-15deg); /* Slant the lines */
+  }
+  
+  /* Top left corner */
+  .about-section::before {
+    top: -10px; /* Adjust positioning */
+    left: -40%; /* Adjust positioning */
+  }
+  
+  /* Bottom right corner */
+  .about-section::after {
+    bottom: -10px; /* Adjust positioning */
+    right: -40%; /* Adjust positioning */
+  }
+  
+  /* Light pink color variant */
+  .about-section::after {
+    background-color: #d12e7f; /* Light pink color */
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .profile-image {
+    width: 280px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    transform: rotate(-3deg); /* Tilt the profile picture slightly to the left */
+  }
+  
+  .profile-details {
+    margin-top: 2%;
+    text-align: left; /* Align text to the left */
+    padding: 0 15px; /* Add padding */
+  }
+  
+  .profile-details h1 {
+    margin-top: 0px; /* Add margin to separate from the profile image */
+    text-align: center; /* Center the <h1> element */
+  }
+  
+  .profile-details p {
+    text-align: left; /* Align the <p> element to the left */
+  }
+  
+  @media (min-width: 768px) {
+    .profile {
+      flex-direction: row-reverse; /* Reverse the order of elements in a row on larger screens */
+      justify-content: center; /* Center elements horizontally */
+    }
+  
+    .profile-image {
+      margin-left: 20px; /* Add space between the image and paragraph */
+    }
+  }
+  
+  @keyframes fadeInAndSlideFromBottom {
+    from {
+      opacity: 0; /* Start with opacity 0 */
+      transform: translateY(100%); /* Start the animation from below the viewport */
+    }
+    to {
+      opacity: 1; /* End with opacity 1 */
+      transform: translateY(0); /* End the animation at the top of the viewport */
+    }
+  }
+  

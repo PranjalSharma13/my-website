@@ -1,0 +1,79 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: right;
+  z-index: 1; 
+}
+
+.overlay-text .name {
+  display: inline;
+  color: #c5ac6e;
+}
+
+.more-about-me-button {
+  position: absolute;
+  top: calc(100% + 0px); /* Adjust the top position to leave space for the button */
+  right: 20%;
+  margin-top: 20px; /* Add margin to separate the button from the text */
+  padding: 10px 20px;
+  background: transparent;
+  border: none; /* Remove default button border */
+  cursor: pointer;
+  color: white; /* Ensure text color is white */
+  font-size: 1em;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust gap between text and image */
+  transition: all 0.3s ease;
+}
+
+.more-about-me-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #c5ac6e;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.button-image {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  transition: transform 0.3s ease;
+}
+
+.more-about-me-button:hover .button-image {
+  transform: rotate(90deg);
+}

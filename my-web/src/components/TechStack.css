@@ -1,0 +1,58 @@
+.tech-stack-container {
+  width: 75%;
+  margin-right: 20%;
+  overflow-y: scroll;
+  /* Hide scrollbar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  /* Additional vendor prefixes */
+  ::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px; /* Adjust the gap between items */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-image-container {
+  width: 130px; /* Fixed width for the container */
+  height: 130px; /* Fixed height for the container */
+  padding: 5px; /* Add padding around the image */
+  box-sizing: border-box; /* Include padding in the width and height calculation */
+  border-radius: 10px;
+  border: 3px solid #d12e7f; /* Pinkish yellow border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure the image does not overflow the container */
+}
+
+.tech-image {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: contain; /* Maintain aspect ratio and contain the image within the box */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.tech-image-container:hover .tech-image {
+  transform: scale(1.1); /* Scale the image to fill up to the border on hover */
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Add margin to single-item columns to stagger them */
+.tech-item.single-item {
+  margin-top: 40px; /* Adjust the margin as needed */
+}

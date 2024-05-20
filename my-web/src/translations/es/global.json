@@ -1,0 +1,14 @@
+{
+    "header":{
+        "message":"Bienvenido al sitio web de Pranjal"
+    },
+    "home":{
+        "intro1":"Hola, soy",
+        "intro2":"Un desarrollador web full-stack.",
+        "moreButton":"Más sobre mí"
+    },
+    "about":{
+        "title":"Sobre mí",
+        "discription":"Desarrollador Java talentoso con 2 años de experiencia profesional destacando tanto en el desarrollo backend como frontend para crear aplicaciones completas. Experimentado en integrar, probar rigurosamente y fortalecer aplicaciones empresariales, con un sólido historial de proporcionar un soporte robusto. Competente en la construcción de sistemas backend sólidos e interfaces de usuario intuitivas, aprovechando Java, Spring Framework y bibliotecas de JavaScript dentro de los dominios de salud, logística de la cadena de suministro y comercio electrónico. Además, experto en el desarrollo de aplicaciones móviles multiplataforma con React Native. Experiencia práctica con Kafka, ActiveMQ, Docker y la Plataforma de Google Cloud (GCP)."
+    }
+}

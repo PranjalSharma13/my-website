@@ -9,10 +9,10 @@ import NotFound from './pages/NotFound';
 const RoutesPage = () => {
   return (
     <Routes>
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route component={NotFound} /> 
+      <Route exact path="/" element={<Home/>} />
+      <Route path="/about" element={<About/>} />
+      <Route path="/contact" element={<Contact/>} />
+      <Route component={<NotFound/>} /> 
     </Routes>
   );
 };
