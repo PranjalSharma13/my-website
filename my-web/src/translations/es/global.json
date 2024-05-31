@@ -1,14 +1,37 @@
 {
-    "header":{
-        "message":"Bienvenido al sitio web de Pranjal"
+    "header": {
+        "message": "Bienvenido al sitio web de Pranjal"
     },
-    "home":{
-        "intro1":"Hola, soy",
-        "intro2":"Un desarrollador web full-stack.",
-        "moreButton":"Más sobre mí"
+    "home": {
+        "intro1": "Hola, soy",
+        "intro2": "Un desarrollador web full-stack.",
+        "moreButton": "Más sobre mí"
     },
-    "about":{
-        "title":"Sobre mí",
-        "discription":"Desarrollador Java talentoso con 2 años de experiencia profesional destacando tanto en el desarrollo backend como frontend para crear aplicaciones completas. Experimentado en integrar, probar rigurosamente y fortalecer aplicaciones empresariales, con un sólido historial de proporcionar un soporte robusto. Competente en la construcción de sistemas backend sólidos e interfaces de usuario intuitivas, aprovechando Java, Spring Framework y bibliotecas de JavaScript dentro de los dominios de salud, logística de la cadena de suministro y comercio electrónico. Además, experto en el desarrollo de aplicaciones móviles multiplataforma con React Native. Experiencia práctica con Kafka, ActiveMQ, Docker y la Plataforma de Google Cloud (GCP)."
+    "about": {
+        "title": "Sobre mí",
+        "discription": "Desarrollador Java talentoso con 2 años de experiencia profesional destacando tanto en el desarrollo backend como frontend para crear aplicaciones completas. Experimentado en integrar de manera transparente, probar rigurosamente y fortificar aplicaciones empresariales, con un sólido historial de proporcionar soporte robusto. Competente en la construcción de sistemas backend robustos e interfaces de usuario intuitivas, aprovechando Java, Spring Framework y bibliotecas de JavaScript dentro de los dominios de salud, logística de la cadena de suministro y comercio electrónico. Además, habilidades en el desarrollo de aplicaciones móviles multiplataforma utilizando React Native. Experiencia práctica con Kafka, ActiveMQ, Docker y Google Cloud Platform (GCP)."
+    },
+    "projects": {
+        "title": "Proyectos",
+        "webDevelopment": "Desarrollo web",
+        "ML": "Aprendizaje automático, Realidad aumentada y Aplicaciones Android",
+        "backendDevelopment": "Desarrollo backend",
+        "web": [
+            { "title": "Portafolio personal", "description": "Un sitio web de portafolio personal que muestra mis proyectos y habilidades." },
+            { "title": "Proyecto de sitio web de bienes raíces", "description": "Aplicación de bienes raíces que proporciona funciones para explorar, comprar, vender y alquilar propiedades. Incorpora filtros de búsqueda avanzados, mapas interactivos y herramientas de valoración de propiedades para usuarios en el mercado inmobiliario." }
+        ],
+        "data": [
+            { 
+                "title": "Dr. Dermo", 
+                "description": "Dr. Dermo es una aplicación Android que verifica al usuario en busca de enfermedades de la piel. El modelo de aprendizaje automático se realizó utilizando TensorFlow. Con la detección de la enfermedad, también proporciona al usuario posibles remedios para la enfermedad y los hospitales cercanos. En nuestro proyecto, proponemos un sistema de diagnóstico que permite a los usuarios reconocer enfermedades de la piel. Esta aplicación proporciona resultados precisos en menos tiempo, también ofrecemos consejos o tratamiento al usuario. Por un lado, puede ser útil para los dermatólogos para reducir las deficiencias clínicas y sirve como un banco de pruebas temprano para pacientes en áreas rurales que carecen de un buen experto médico. Además, la aplicación también funciona para recordar al usuario que tome los medicamentos recetados a tiempo. El conjunto de datos utilizado fue de la Universidad de Tsukuba."
+            },
+            { 
+                "title": "CarCart", 
+                "description": "CarCart es una aplicación Android futurista y fácil de usar con capacidades de aprendizaje automático y realidad aumentada. Permite al usuario cargar la imagen del automóvil que se puede procesar para detectar el automóvil más probable. El modelo de aprendizaje automático se entrena en el conjunto de datos de automóviles de Stanford que contiene 196 clases de automóviles. Por lo tanto, este problema se clasifica como un problema de clasificación multi-etiqueta. Además, los usuarios podrán ver varios modelos de autos disponibles en el mercado junto con sus especificaciones y transmisión de video, obtener una lista de salas de exhibición y centros de reparación cercanos, establecer recordatorios de servicio, proporcionar sus comentarios, realizar encuestas sobre autos usados, verificar su disponibilidad y costos, poder contactar concesionarios de automóviles, introduciendo así el concepto de venta al por menor. La aplicación también muestra el prototipo en 3D a tamaño real de ciertos modelos de automóviles seleccionados utilizando realidad aumentada. Por lo tanto, el usuario puede considerar todos los factores esenciales antes de llegar a una decisión informada según sus requisitos."
+            }
+        ],
+        "mobile": [
+            { "backendDevelopment": "Sistema de insignias", "description": "La aplicación del sistema de insignias proporciona una solución eficiente y segura para realizar un seguimiento de la asistencia en varias instalaciones dentro de MIU. Al replicar la funcionalidad de los escáneres físicos e incorporar características como el control de acceso basado en roles, la integración de seguridad OAuth y la aplicación racionaliza los procesos de gestión de asistencia mientras garantiza la seguridad y confiabilidad de los datos." }
+        ]
     }
 }

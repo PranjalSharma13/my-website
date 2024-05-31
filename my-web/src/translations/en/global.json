@@ -1,16 +1,37 @@
 {
-    "header":{
-        "message":"Welcome to Pranjal's website"
+    "header": {
+        "message": "Welcome to Pranjal's website"
     },
-    "home":{
-        "intro1":"  Hello,I am",
-        "intro2":"A full-stack web developer.",
-        "moreButton":"More About Me"
-        
+    "home": {
+        "intro1": "Hello, I am",
+        "intro2": "A full-stack web developer.",
+        "moreButton": "More About Me"
     },
-    "about":{
-        "title":"About me",
-        "discription":"Talented Java Developer with 2 years of professional experience excelling in both backend and frontend development to create comprehensive applications. Experienced in seamlessly integrating, rigorously testing, and fortifying enterprise applications, with a strong track record of providing robust support. Proficient in constructing robust backend systems and intuitive user interfaces, leveraging Java, Spring Framework and java script libraries within Health, supply chain logistics and e-commerce domains Additionally, skilled in cross-platform mobile apps development using React Native. Hands-on experience with Kafka, ActiveMQ, Docker and Google Cloud Platform(GCP)"
-        
+    "about": {
+        "title": "About me",
+        "discription": "Talented Java Developer with 2 years of professional experience excelling in both backend and frontend development to create comprehensive applications. Experienced in seamlessly integrating, rigorously testing, and fortifying enterprise applications, with a strong track record of providing robust support. Proficient in constructing robust backend systems and intuitive user interfaces, leveraging Java, Spring Framework and JavaScript libraries within Health, supply chain logistics and e-commerce domains. Additionally, skilled in cross-platform mobile apps development using React Native. Hands-on experience with Kafka, ActiveMQ, Docker and Google Cloud Platform (GCP)."
+    },
+    "projects": {
+        "title": "Projects",
+        "webDevelopment": "Web Development",
+        "ML": "Machine Learning, Augmented Reality and Android Application",
+        "backendDevelopment": "Backend Development",
+        "web": [
+            { "title": "Personal Portfolio", "description": "A personal portfolio website showcasing my projects and skills." },
+            { "title": "Real Estate Website Project", "description": "Real Estate Application provide features for exploring, buying, selling, and renting properties. Incorporated advanced search filters, interactive maps, and property valuation tools for users in the real estate market. " }
+        ],
+        "data": [
+            { 
+                "title": "Dr. Dermo", 
+                "description": "Dr Dermo is an android application that checks user for skin disease. The machine learning model was made using TensorFlow. With the detection of the disease, it additionally provides the user with possible remedies for the disease and the hospitals around. In our project, we propose a diagnostic system that enables users to recognize skin diseases. This application provides accurate results in less time, we also offer advice or treatment to the user. On the one hand, it can be useful for dermatologists to reduce clinical deficiencies and serves as an early testbed for patients in rural areas who lack a good medical expert. In addition, the application also functions to remind the user to take the prescribed medicines on time. The dataset used was from University of Tsukuba."
+            },
+            { 
+                "title": "CarCart", 
+                "description": "CarKart is a user-friendly futuristic android application with Machine Learning and Augmented reality capabilities. It enables the user to upload the image of the car which can be processed to detect the foremost probable car. The machine learning model is trained on the Stanford car dataset containing 196 classes of cars. Hence, this problem is categorised as a multi-label classification problem. Additionally, the users are going to be able to view various models of cars available within the market alongside their specifications and video feed, fetch a list of nearby showrooms and repair centres, set service reminders, provide their feedback, survey on used cars, check their availability and costs, be able to contact car dealers, thereby introducing the concept of retail. The app also displays the live-size 3D prototype of certain selected car models using Augmented Reality. So, the user can consider all the essential factors before arriving at an informed decision as per their requirement."
+            }
+        ],
+        "mobile": [
+            { "backendDevelopment": "Badge System", "description": "Badge System Application provides an efficient and secure solution for tracking attendance in various facilities within MIU. By replicating the functionality of physical scanners and incorporating features such as role-based access control, OAuth security integration, and the application streamlines attendance management processes while ensuring data security and reliability" }
+        ]
     }
 }
