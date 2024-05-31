@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.f0260cee.css",
-    "main.js": "/my-website/static/js/main.a6f420ea.js",
+    "main.css": "/my-website/static/css/main.45888a39.css",
+    "main.js": "/my-website/static/js/main.878dfcf8.js",
     "static/js/453.a0345f9e.chunk.js": "/my-website/static/js/453.a0345f9e.chunk.js",
     "static/media/frontpic.mp4": "/my-website/static/media/frontpic.ab3dd0136f1907f3db7a.mp4",
     "static/media/IMG_2609.jpg": "/my-website/static/media/IMG_2609.0f731d471cd5e076c336.jpg",
     "static/media/java.png": "/my-website/static/media/java.f7b6bd40fb91e0f1c29b.png",
     "static/media/spring.png": "/my-website/static/media/spring.c579a0bc024aa879c771.png",
+    "static/media/Pranjal-Sharma.Resume.pdf": "/my-website/static/media/Pranjal-Sharma.Resume.8e2e41a234e4b00f07b5.pdf",
     "static/media/yellowarrow.png": "/my-website/static/media/yellowarrow.670d15ecd252bfb201b1.png",
     "static/media/css.png": "/my-website/static/media/css.5bd8c8166c13d3d30503.png",
     "static/media/react.png": "/my-website/static/media/react.20adfb35ae6a6e5817bf.png",
@@ -21,12 +22,12 @@
     "static/media/oracle.png": "/my-website/static/media/oracle.49954642e809ac51ae3c.png",
     "static/media/javascript.png": "/my-website/static/media/javascript.dafbcd7fb56fcfce553c.png",
     "index.html": "/my-website/index.html",
-    "main.f0260cee.css.map": "/my-website/static/css/main.f0260cee.css.map",
-    "main.a6f420ea.js.map": "/my-website/static/js/main.a6f420ea.js.map",
+    "main.45888a39.css.map": "/my-website/static/css/main.45888a39.css.map",
+    "main.878dfcf8.js.map": "/my-website/static/js/main.878dfcf8.js.map",
     "453.a0345f9e.chunk.js.map": "/my-website/static/js/453.a0345f9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0260cee.css",
-    "static/js/main.a6f420ea.js"
+    "static/css/main.45888a39.css",
+    "static/js/main.878dfcf8.js"
   ]
 }
