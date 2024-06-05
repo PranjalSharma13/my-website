@@ -31,7 +31,8 @@
             }
         ],
         "mobile": [
-            { "backendDevelopment": "Badge System", "description": "Badge System Application provides an efficient and secure solution for tracking attendance in various facilities within MIU. By replicating the functionality of physical scanners and incorporating features such as role-based access control, OAuth security integration, and the application streamlines attendance management processes while ensuring data security and reliability" }
+            { "backendDevelopment": "Badge System",
+            "title": "Badge System", "description": "Badge System Application provides an efficient and secure solution for tracking attendance in various facilities within MIU. By replicating the functionality of physical scanners and incorporating features such as role-based access control, OAuth security integration, and the application streamlines attendance management processes while ensuring data security and reliability" }
         ]
     }
 }

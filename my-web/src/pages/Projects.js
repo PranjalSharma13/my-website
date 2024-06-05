@@ -44,7 +44,7 @@ const Projects = () => {
                     ))}
                 </div>
             ))}
-             <button className="download-cv-button" ><a href='' download={resume}>Download CV</a>
+             <button className="download-cv-button" ><a href={resume} download="Resume">Download CV</a>
              </button>
         </div>
     );
