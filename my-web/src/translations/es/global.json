@@ -34,5 +34,24 @@
             { "backendDevelopment": "Sistema de Insignias",
             "title": "Sistema de Insignias", "description": "La aplicación del Sistema de Insignias proporciona una solución eficiente y segura para el seguimiento de la asistencia en varias instalaciones dentro de MIU. Al replicar la funcionalidad de los escáneres físicos e incorporar características como el control de acceso basado en roles, la integración de seguridad OAuth, la aplicación agiliza los procesos de gestión de asistencia mientras garantiza la seguridad y confiabilidad de los datos." }
         ]
-    }
+    },
+    "form": {
+    "title":"Conéctate con Nosotros",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar"
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "¡A solo una llamada, correo o mensaje de distancia!",
+    "addressTitle": "DIRECCIÓN",
+    "address": "Cincinnati, OH",
+    "phoneTitle": "NÚMERO DE CONTACTO",
+    "phone": "+1 929-682-4775",
+    "emailTitle": "DIRECCIÓN DE CORREO ELECTRÓNICO",
+    "email": "pranjal.sharm98@gmail.com",
+    "websiteTitle": "SITIO WEB",
+    "website": "pranjalsharma13.github.io/my-website/"
+  }
 }

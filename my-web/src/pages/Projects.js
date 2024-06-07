@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import './Projects.css';
 import githubLogo from '../assets/images/git.png';
 import resume from '../assets/resume/Pranjal-Sharma.Resume.pdf';
+import download from '../assets/images/download.png';
 
 const Projects = () => {
     const { t } = useTranslation("global");
@@ -44,8 +45,10 @@ const Projects = () => {
                     ))}
                 </div>
             ))}
-             <button className="download-cv-button" ><a href={resume} download="Resume">Download CV</a>
-             </button>
+             <button className="download-cv-button">
+    <img src={download} alt="Download Icon" />
+    <a href={resume} download="Resume">Download CV</a>
+</button>
         </div>
     );
 };

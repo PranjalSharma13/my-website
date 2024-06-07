@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactForm.css';
+import pic from '../assets/images/mypic.jpg';
+import { useTranslation } from 'react-i18next';
 
 function ContactForm() {
+  const { t } = useTranslation('global');
   const [formData, setFormData] = useState({
     user_name: '',
     user_email: '',
     message: ''
   });
-
+  debugger;
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.user_name]: e.target.value });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
@@ -18,9 +21,9 @@ function ContactForm() {
 
     emailjs.send(
       'service_q0uj30j', // Replace with your EmailJS service ID
-      'service_q0uj30j', // Replace with your EmailJS template ID
+      'template_yte32rg', // Replace with your EmailJS template ID
       formData,
-      'your_user_id' // Replace with your EmailJS user ID
+      'povxBCM37AbInFgc0' // Replace with your EmailJS user ID
     )
       .then((result) => {
         console.log(result.text);
@@ -32,35 +35,39 @@ function ContactForm() {
 
     setFormData({ user_name: '', user_email: '', message: '' });
   };
-
+  debugger;
   return (
+ 
     <div className="fill-container">
       <div className="contact-container">
-        <h2>Let's Connect</h2>
+        <h2>{t('form.title')}</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
             name="user_name"
-            placeholder="Name"
+            placeholder={t('form.name')}
             value={formData.user_name}
             onChange={handleChange}
           />
           <input
             type="email"
             name="user_email"
-            placeholder="Email"
+            placeholder={t('form.email')}
             value={formData.user_email}
             onChange={handleChange}
           />
           <textarea
             name="message"
-            placeholder="Message"
+            placeholder={t('form.message')}
             value={formData.message}
             onChange={handleChange}
           />
           <button type="submit">Submit</button>
         </form>
       </div>
+      <div className="image-container">
+  <img src={pic} alt="My Picture" />
+</div>
     </div>
   );
 }

@@ -1,46 +1,64 @@
 .fill-container {
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  height: 100vh; /* Adjusted height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-  .contact-container {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .contact-container h2 {
-    margin-bottom: 20px;
-  }
-  
-  .contact-container input,
-  .contact-container textarea {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #444;
-    color: #fff;
-  }
-  
-  .contact-container button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #ff6600;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .contact-container button:hover {
-    background-color: #ff4500;
-  }
-  
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px; /* Added padding to bottom */
+  height: 60vh; /* Adjusted height */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%; /* Adjusted height */
+}
+
+.contact-container {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  flex: 1;
+  margin-left: 20px; /* Add margin to separate from the image */
+   /* Adjusted height */
+}
+
+.contact-container h2 {
+  margin-bottom: 20px;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+.contact-container button {
+  width: auto; /* Adjusted width */
+  padding: 10px 20px; /* Adjusted padding */
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #ff4500;
+}

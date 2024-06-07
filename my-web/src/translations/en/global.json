@@ -47,8 +47,8 @@
         "websiteTitle": "WEBSITE",
         "website": "pranjalsharma13.github.io/my-website/"
       },
-  "contactForm": {
-    "title": "Let's Connect",
+  "form": {
+    "title":"Let's Connect",
     "name": "Name",
     "email": "Email",
     "message": "Message",
