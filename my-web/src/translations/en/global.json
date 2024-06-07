@@ -34,5 +34,24 @@
             { "backendDevelopment": "Badge System",
             "title": "Badge System", "description": "Badge System Application provides an efficient and secure solution for tracking attendance in various facilities within MIU. By replicating the functionality of physical scanners and incorporating features such as role-based access control, OAuth security integration, and the application streamlines attendance management processes while ensuring data security and reliability" }
         ]
-    }
+    },
+    "contact": {
+        "title": "Contact Me",
+        "subtitle": "Just a call, mail, text away!",
+        "addressTitle": "ADDRESS",
+        "address": "Cincinnati,OH",
+        "phoneTitle": "CONTACT NUMBER",
+        "phone": "+1 929-682-4775",
+        "emailTitle": "EMAIL ADDRESS",
+        "email": "pranjal.sharm98@gmail.com",
+        "websiteTitle": "WEBSITE",
+        "website": "pranjalsharma13.github.io/my-website/"
+      },
+  "contactForm": {
+    "title": "Let's Connect",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  }
 }

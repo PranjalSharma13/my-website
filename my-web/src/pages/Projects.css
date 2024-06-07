@@ -19,11 +19,11 @@
 }
 
 .project {
-    border: 2px solid #bdc3c7;
+    border: 2px solid #d12e7f;
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #ecf0f1;
+    background-color: #f7e9f0;
     position: relative; /* Position for the GitHub logo */
     transition: all 0.3s ease; /* Smooth transition effect */
 }
