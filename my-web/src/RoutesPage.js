@@ -14,7 +14,7 @@ const RoutesPage = () => {
       <Route path="/about" element={<About/>} />
       <Route path="/projects" element={<Projects/>} />
       <Route path="/contact" element={<Contact/>} />
-      <Route component={<NotFound/>} /> 
+      <Route path="*" component={<NotFound/>} /> 
     </Routes>
   );
 };
