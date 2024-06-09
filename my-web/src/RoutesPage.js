@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
@@ -10,11 +9,11 @@ import NotFound from './pages/NotFound';
 const RoutesPage = () => {
   return (
     <Routes>
-      <Route exact path="/" element={<Home/>} />
-      <Route path="/about" element={<About/>} />
-      <Route path="/projects" element={<Projects/>} />
-      <Route path="/contact" element={<Contact/>} />
-      <Route path="*" component={<NotFound/>} /> 
+      <Route exact path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };
