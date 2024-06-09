@@ -2,7 +2,7 @@
   "name": "my-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pranjalsharma13.github.io/my-website/",
+  "homepage": "https://pranjalsharma13.netlify.app/",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@testing-library/jest-dom": "^5.17.0",
