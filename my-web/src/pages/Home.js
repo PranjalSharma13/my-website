@@ -6,7 +6,7 @@ import buttonImage from '../assets/images/yellowarrow.png';
 import { useNavigate } from 'react-router-dom'; // Correct import
 
 function Home() {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   const navigate = useNavigate(); // Use useNavigate for navigation
 
   const handleMoreAboutMe = () => {
