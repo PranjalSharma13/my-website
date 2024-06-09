@@ -2,7 +2,7 @@
 
 [build]
   base    = "my-web"  # Adjust this to your project's base directory if needed
-  publish = "my-web/build"
+  publish = "build"
   command = "CI=false react-scripts build"
 
 [[redirects]]
