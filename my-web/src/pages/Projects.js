@@ -11,20 +11,48 @@ const Projects = () => {
     const projects = [
         {
             category: t("projects.webDevelopment"),
-            items: t("projects.web", { returnObjects: true })
+            items: [
+                {
+                    title: t("projects.web.0.title"),
+                    description: t("projects.web.0.description"),
+                    link: "https://github.com/PranjalSharma13/my-website"
+                },
+                {
+                    title: t("projects.web.1.title"),
+                    description: t("projects.web.1.description"),
+                    link: "https://github.com/Sudean11/Moomin-Realstates-Frontend-React"
+                }
+            ]
         },
         {
             category: t("projects.ML"),
-            items: t("projects.data", { returnObjects: true })
+            items: [
+                {
+                    title: t("projects.data.0.title"),
+                    description: t("projects.data.0.description"),
+                    link: "https://github.com/PranjalSharma13/dr-dermo"
+                },
+                {
+                    title: t("projects.data.1.title"),
+                    description: t("projects.data.1.description"),
+                    link: "https://www.ijariit.com/manuscripts/v7i4/V7I4-1407.pdf"
+                }
+            ]
         },
         {
             category: t("projects.backendDevelopment"),
-            items: t("projects.mobile", { returnObjects: true })
+            items: [
+                {
+                    title: t("projects.mobile.0.title"),
+                    description: t("projects.mobile.0.description"),
+                    link: "https://github.com/PranjalSharma13/badge-system"
+                }
+            ]
         }
     ];
 
-    const openGitHub = () => {
-        window.open('https://github.com/PranjalSharma13', '_blank'); 
+    const openGitHub = (link) => {
+        window.open(link, '_blank'); 
     };
 
     return (
@@ -38,17 +66,17 @@ const Projects = () => {
                         <div key={idx} className="project">
                             <h3>{project.title}</h3>
                             <p>{project.description}</p>
-                            <div className="github-logo" onClick={openGitHub}>
+                            <div className="github-logo" onClick={() => openGitHub(project.link)}>
                                 <img src={githubLogo} alt="GitHub Logo" />
                             </div>
                         </div>
                     ))}
                 </div>
             ))}
-             <button className="download-cv-button">
-    <img src={download} alt="Download Icon" />
-    <a href={resume} download="Resume">Download CV</a>
-</button>
+            <button className="download-cv-button">
+                <img src={download} alt="Download Icon" />
+                <a href={resume} download="Resume">Download CV</a>
+            </button>
         </div>
     );
 };

@@ -18,7 +18,7 @@
         "backendDevelopment": "Backend Development",
         "web": [
             { "title": "Personal Portfolio", "description": "A personal portfolio website showcasing my projects and skills." },
-            { "title": "Real Estate Website Project", "description": "Real Estate Application provide features for exploring, buying, selling, and renting properties. Incorporated advanced search filters, interactive maps, and property valuation tools for users in the real estate market. " }
+            { "title": "Real Estate Website Project", "description": "Real Estate Application provide features for exploring, buying, selling, and renting properties. Incorporated advanced search filters, interactive maps, and property valuation tools for users in the real estate market." }
         ],
         "data": [
             { 
@@ -31,27 +31,29 @@
             }
         ],
         "mobile": [
-            { "backendDevelopment": "Badge System",
-            "title": "Badge System", "description": "Badge System Application provides an efficient and secure solution for tracking attendance in various facilities within MIU. By replicating the functionality of physical scanners and incorporating features such as role-based access control, OAuth security integration, and the application streamlines attendance management processes while ensuring data security and reliability" }
+            { 
+                "title": "Badge System", 
+                "description": "Badge System Application provides an efficient and secure solution for tracking attendance in various facilities within MIU. By replicating the functionality of physical scanners and incorporating features such as role-based access control, OAuth security integration, and the application streamlines attendance management processes while ensuring data security and reliability."
+            }
         ]
     },
     "contact": {
         "title": "Contact Me",
         "subtitle": "Just a call, mail, text away!",
         "addressTitle": "ADDRESS",
-        "address": "Cincinnati,OH",
+        "address": "Cincinnati, OH",
         "phoneTitle": "CONTACT NUMBER",
         "phone": "+1 929-682-4775",
         "emailTitle": "EMAIL ADDRESS",
         "email": "pranjal.sharm98@gmail.com",
         "websiteTitle": "WEBSITE",
         "website": "pranjalsharma13.github.io/my-website/"
-      },
-  "form": {
-    "title":"Let's Connect",
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "submit": "Submit"
-  }
+    },
+    "form": {
+        "title": "Let's Connect",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit"
+    }
 }
