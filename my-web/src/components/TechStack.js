@@ -12,6 +12,7 @@ import kafkaImage from '../assets/images/kafka.png';
 import mavenImage from '../assets/images/maven.png';
 import mysqlImage from '../assets/images/mysql.png';
 import cplusImage from '../assets/images/pngegg.png';
+import awsImage from '../assets/images/aws.png';
 
 function TechStack() {
   return (
@@ -79,15 +80,21 @@ function TechStack() {
         </div>
         <div className="tech-item">
           <div className="tech-image-container">
-            <img src={mysqlImage} alt="Python" className="tech-image" />
+            <img src={mysqlImage} alt="MySQL" className="tech-image" />
           </div>
           <p>MySQL</p>
         </div>
         <div className="tech-item">
           <div className="tech-image-container">
-            <img src={cplusImage} alt="Docker" className="tech-image" />
+            <img src={cplusImage} alt="C++" className="tech-image" />
           </div>
           <p>C++</p>
+        </div>
+        <div className="tech-item">
+          <div className="tech-image-container">
+            <img src={awsImage} alt="AWS" className="tech-image" />
+          </div>
+          <p>AWS</p>
         </div>
       </div>
     </div>

@@ -2,11 +2,12 @@
   text-align: center;
   background-color: #000;
   color: #fff;
-  height: 100vh; /* Adjusted height */
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  flex-wrap: wrap; /* Added to allow wrapping */
+  padding: 20px;
 }
 
 .image-container {
@@ -14,14 +15,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px; /* Added padding to bottom */
-  height: 60vh; /* Adjusted height */
+  padding-bottom: 20px;
+  height: 60vh;
 }
 
 .image-container img {
   max-width: 100%;
   height: auto;
-  max-height: 100%; /* Adjusted height */
+  max-height: 100%;
 }
 
 .contact-container {
@@ -30,8 +31,7 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   flex: 1;
-  margin-left: 20px; /* Add margin to separate from the image */
-   /* Adjusted height */
+  margin: 20px; /* Updated margin for separation */
 }
 
 .contact-container h2 {
@@ -50,8 +50,8 @@
 }
 
 .contact-container button {
-  width: auto; /* Adjusted width */
-  padding: 10px 20px; /* Adjusted padding */
+  width: auto;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   background-color: #ff6600;
@@ -61,4 +61,20 @@
 
 .contact-container button:hover {
   background-color: #ff4500;
+}
+
+@media (max-width: 768px) {
+  .fill-container {
+    flex-direction: column; 
+    align-items: stretch;
+  }
+
+  .image-container {
+    height: auto;
+    padding-bottom: 0;
+  }
+
+  .contact-container {
+    margin: 10px 0;
+  }
 }

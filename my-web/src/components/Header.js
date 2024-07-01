@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <header className="header">
      <LanguageSwitch/> 
-    </header>
+     </header>
+    
   );
 };
 

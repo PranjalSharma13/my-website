@@ -11,7 +11,7 @@ function ContactForm() {
     user_email: '',
     message: ''
   });
-  debugger;
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -20,10 +20,10 @@ function ContactForm() {
     e.preventDefault();
 
     emailjs.send(
-      'service_q0uj30j', // Replace with your EmailJS service ID
-      'template_yte32rg', // Replace with your EmailJS template ID
+      'service_q0uj30j', 
+      'template_yte32rg', 
       formData,
-      'povxBCM37AbInFgc0' // Replace with your EmailJS user ID
+      'povxBCM37AbInFgc0'
     )
       .then((result) => {
         console.log(result.text);
@@ -35,9 +35,8 @@ function ContactForm() {
 
     setFormData({ user_name: '', user_email: '', message: '' });
   };
-  debugger;
+
   return (
- 
     <div className="fill-container">
       <div className="contact-container">
         <h2>{t('form.title')}</h2>
@@ -62,12 +61,12 @@ function ContactForm() {
             value={formData.message}
             onChange={handleChange}
           />
-          <button type="submit">Submit</button>
+          <button type="submit">{t('form.submit')}</button>
         </form>
       </div>
       <div className="image-container">
-  <img src={pic} alt="My Picture" />
-</div>
+        <img src={pic} alt="My Picture" />
+      </div>
     </div>
   );
 }

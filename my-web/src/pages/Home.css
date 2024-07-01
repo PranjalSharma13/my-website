@@ -23,7 +23,7 @@ body, html {
   width: auto;
   height: auto;
   transform: translate(-50%, -50%);
-  z-index: -1; 
+  z-index: -1;
 }
 
 .overlay-text {
@@ -35,7 +35,7 @@ body, html {
   font-size: 2em;
   font-weight: bold;
   text-align: right;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .overlay-text .name {
@@ -45,19 +45,19 @@ body, html {
 
 .more-about-me-button {
   position: absolute;
-  top: calc(100% + 0px); /* Adjust the top position to leave space for the button */
+  top: calc(100% + 0px);
   right: 20%;
-  margin-top: 20px; /* Add margin to separate the button from the text */
+  margin-top: 20px;
   padding: 10px 20px;
   background: transparent;
-  border: none; /* Remove default button border */
+  border: none;
   cursor: pointer;
-  color: white; /* Ensure text color is white */
+  color: white;
   font-size: 1em;
   z-index: 2;
   display: flex;
   align-items: center;
-  gap: 10px; /* Adjust gap between text and image */
+  gap: 10px;
   transition: all 0.3s ease;
 }
 
@@ -69,11 +69,46 @@ body, html {
 }
 
 .button-image {
-  width: 50px; /* Adjust the size as needed */
-  height: 50px; /* Adjust the size as needed */
+  width: 50px;
+  height: 50px;
   transition: transform 0.3s ease;
 }
 
 .more-about-me-button:hover .button-image {
   transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  .overlay-text {
+    font-size: 1.5em;
+    text-align: center;
+    right: 5%;
+  }
+
+  .more-about-me-button {
+    right: 10%;
+  }
+
+  .button-image {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-text {
+    font-size: 1em;
+    text-align: center;
+    right: 5%;
+  }
+
+  .more-about-me-button {
+    right: 5%;
+    font-size: 0.8em;
+  }
+
+  .button-image {
+    width: 30px;
+    height: 30px;
+  }
 }
