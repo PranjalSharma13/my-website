@@ -15,16 +15,6 @@
   overflow-x: hidden;
 }
 
-.about-section::before {
-  content: "";
-  position: absolute;
-  width: 150%;
-  height: 20px;
-  background-color: #d12e7f;
-  transform: rotate(-15deg);
-  top: -10px;
-  left: -40%;
-}
 
 .profile {
   display: flex;
